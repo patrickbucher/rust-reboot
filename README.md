@@ -26,3 +26,5 @@ I'll be using the modified and extended version of the Rust Book from Brown Univ
 
 But now, let's get _rusty_ again!
 
+PS: No AI, no fancy text editors; just the official Rust distribution, Vim, Bash and my brain.
+
