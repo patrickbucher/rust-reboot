@@ -33,11 +33,11 @@ fn twelve_days_of_christmas() {
     let mut i = 0;
     while i < gifts.len() {
         let day = gifts[i].0;
-        println!("On the {day } day of Christmas my true love sent to me");
+        println!("On the {day} day of Christmas my true love sent to me");
         for j in (0..=i).rev() {
             let gift = gifts[j].1;
             if j == 0 && i > 0 {
-                println!("And {gift}");
+                println!("And {}", gift.to_lowercase());
             } else {
                 println!("{gift}");
             }
