@@ -1,3 +1,9 @@
+# Day 3 (2025-07-07)
+
+Today, I'm working through chapter 4 of the Brown Book, which is about _ownership_. A few notes:
+
+- Assigning a heap variable moves its ownership to a new destination. E.g. `let a = Box::new(3); let b = a;` moves the ownership of the `Box` containing the value `3` from `a` to `b`. At this point, `b` is the only valid reference to said value; `a` must no longer be used. Thanks to this single-ownerhip principle, boxes can be deallocated automatically at the end of their pointer's scope without the risk of a _double free_ memory operation.
+
 # Day 2 (2025-07-06)
 
 Working through chapter 3 of the Brown Book showed me the value of the added quizzes: Going through the introductory material is mostly about re-activating the knowledge I already acquired a year ago; but once I get quiz answers wrong, I have to dig deeper.
