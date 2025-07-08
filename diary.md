@@ -1,3 +1,7 @@
+# Day 4 (2025-07-08)
+
+No progress on the Brown Book today; I only had time to work on the first two puzzles of _Rust Brain Teasers_, which I bought a while ago but never bothered to read.
+
 # Day 3 (2025-07-07)
 
 Today, I'm working through chapter 4 of the Brown Book, which is about _ownership_. A few notes:
