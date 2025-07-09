@@ -1,3 +1,7 @@
+# Day 5 (2025-07-09)
+
+I got a little further into chapter 4 of the Brown Book, but I am still not finished. I think this chapter is just belaboring the point. Maybe I should just review my old code instead, but let's stick to the plan for a while.
+
 # Day 4 (2025-07-08)
 
 No progress on the Brown Book today; I only had time to work on the first two puzzles of _Rust Brain Teasers_, which I bought a while ago but never bothered to read.
