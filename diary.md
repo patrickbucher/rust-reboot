@@ -1,3 +1,74 @@
+# Day 6 (2025-07-10)
+
+I finished chapter 4 today. I got some quiz questions wrong, but mostly the hypothecical ones ("Would there be any undefined behaviour if the Rust compiler accepted the following program?"). I'm happy with my current understanding of the ownership principles and rules. First, a few definitions:
+
+- _References_: non-owning pointers.
+- _Aliasing_: accessing the same data through different variables.
+- _Pointer Safety Principle_: data should never be aliased and mutated at the same time.
+
+At compile-time, there are the following variable permissions (with respective allowed operations):
+
+- `r`: read (copy)
+- `w`: write (mutate)
+- `o`: own (move & drop)
+
+Bindings have the following permissions:
+
+- `let`: `ro`
+- `let mut`: `rwo`
+
+References modify the permissions as follows:
+
+| Reference | Original   | Reference        |
+|-----------|------------|------------------|
+| immutable | `-w`, `-o` | `+r`             |
+| mutable   | `-w`, `-o` | `+r`, `+w`, `+o` |
+
+Borrowing from a variable temporarely drops its `o` permission.
+
+Functions input/output references are treated differently in terms of permissions than variables within a function body: they make use of the _flow permission_ `f` (which, unfortunately, is not further explained in this chapter).
+
+The syntax is best explained by this code snippets demonstrating function invocations using both references and passing of ownership; both mutably and immutabely:
+
+```rust
+fn take_mutable_ownership(mut s: String) {
+    s.push_str(".");
+    println!("{s}");
+}
+
+fn take_ownership(s: String) {
+    println!("{s}.");
+}
+
+fn take_mutable_reference(s: &mut String) {
+    s.push_str(".");
+    println!("{s}");
+}
+
+fn take_referene(s: &String) {
+    println!("{s}.");
+}
+
+fn main() {
+    let mut a = String::from("a");
+    let mut b = String::from("b");
+    let mut c = String::from("c");
+    let mut d = String::from("d");
+
+    take_mutable_ownership(a);
+    take_ownership(b);
+    take_mutable_reference(&mut c);
+    take_referene(&d);
+
+    println!("{a}"); // fails
+    println!("{b}"); // fails
+    println!("{c}"); // ok
+    println!("{d}"); // ok
+}
+```
+
+Now I'm looking forward to the next chapter on structs.
+
 # Day 5 (2025-07-09)
 
 I got a little further into chapter 4 of the Brown Book, but I am still not finished. I think this chapter is just belaboring the point. Maybe I should just review my old code instead, but let's stick to the plan for a while.
