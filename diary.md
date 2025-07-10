@@ -45,7 +45,7 @@ fn take_mutable_reference(s: &mut String) {
     println!("{s}");
 }
 
-fn take_referene(s: &String) {
+fn take_reference(s: &String) {
     println!("{s}.");
 }
 
@@ -58,10 +58,10 @@ fn main() {
     take_mutable_ownership(a);
     take_ownership(b);
     take_mutable_reference(&mut c);
-    take_referene(&d);
+    take_reference(&d);
 
-    println!("{a}"); // fails
-    println!("{b}"); // fails
+    println!("{a}"); // FIXME: fails
+    println!("{b}"); // FIXME: fails
     println!("{c}"); // ok
     println!("{d}"); // ok
 }
