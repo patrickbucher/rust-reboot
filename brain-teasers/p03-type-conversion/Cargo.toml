@@ -1,0 +1,6 @@
+[package]
+name = "p03-type-conversion"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
