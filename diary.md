@@ -1,3 +1,7 @@
+# Day 7 (2025-07-11)
+
+Another unproductive day: I just managed to work through puzzle 3 in Rust Brain Teasers. It's about type conversions.
+
 # Day 6 (2025-07-10)
 
 I finished chapter 4 today. I got some quiz questions wrong, but mostly the hypothecical ones ("Would there be any undefined behaviour if the Rust compiler accepted the following program?"). I'm happy with my current understanding of the ownership principles and rules. First, a few definitions:
