@@ -1,3 +1,7 @@
+# Day 8 (2025-07-12)
+
+I worked through chapter 5 today, which is about structs. It was rather easy; I also managed to get all the quizzes right for once.
+
 # Day 7 (2025-07-11)
 
 Another unproductive day: I just managed to work through puzzle 3 in Rust Brain Teasers. It's about type conversions.
