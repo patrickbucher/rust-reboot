@@ -1,3 +1,7 @@
+# Day 9 (2025-07-13)
+
+Little time today, so I just worked through the 4th Brain Teaser about integer overflows.
+
 # Day 8 (2025-07-12)
 
 I worked through chapter 5 today, which is about structs. It was rather easy; I also managed to get all the quizzes right for once.
