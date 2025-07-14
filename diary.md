@@ -1,3 +1,7 @@
+# Day 10 (2025-07-14)
+
+ Almost no time for Rust today; I just worked through the 5th brain teaser on unicode strings.
+
 # Day 9 (2025-07-13)
 
 Little time today, so I just worked through the 4th Brain Teaser about integer overflows.
