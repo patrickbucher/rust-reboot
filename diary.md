@@ -1,3 +1,7 @@
+# Day 11 (2025-07-15)
+
+Little time again, and a slight cold. So I just worked through the 6th brain teaser, on floating point arithmetic, that is.
+
 # Day 10 (2025-07-14)
 
  Almost no time for Rust today; I just worked through the 5th brain teaser on unicode strings.
