@@ -15,6 +15,14 @@ impl Shape {
     }
 }
 
+fn maybe_sqrt(x: f32) -> Option<f32> {
+    if x >= 0.0 {
+        Some(x.sqrt())
+    } else {
+        None
+    }
+}
+
 fn main() {
     let r = Shape::Rectangle {
         width: 3.0,
@@ -22,4 +30,9 @@ fn main() {
     };
     let s = Shape::Square(5.0);
     println!("{} {}", r.circumference(), s.circumference());
+
+    let x: f32 = 16.0;
+    if let Some(y) = maybe_sqrt(16.0) {
+        println!("sqrt({})={}", x, y);
+    }
 }

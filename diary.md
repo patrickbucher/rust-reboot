@@ -1,3 +1,7 @@
+# Day 13 (2025-07-17)
+
+Little time again; but I managed to finish chapter 6 in the Brown Book, but without spending too much time with the "Ownership Inventory" quizzes. However, I got to know the `let`/`else` construct, which I wasn't familiar with before.
+
 # Day 12 (2025-07-16)
 
 Still suffering from the slight cold, but I started with chapter 6 (on enums) nonetheless. I'd like to finish it tomorrow.
