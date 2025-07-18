@@ -1,3 +1,7 @@
+# Day 14 (2025-07-18)
+
+No Rust today; I'm simply too busy, tired, and sick, unfortunately.
+
 # Day 13 (2025-07-17)
 
 Little time again; but I managed to finish chapter 6 in the Brown Book, but without spending too much time with the "Ownership Inventory" quizzes. However, I got to know the `let`/`else` construct, which I wasn't familiar with before.
