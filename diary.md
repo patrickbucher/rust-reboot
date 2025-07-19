@@ -1,3 +1,7 @@
+# Day 15 (2025-07-19)
+
+Still sick; still no Rust.
+
 # Day 14 (2025-07-18)
 
 No Rust today; I'm simply too busy, tired, and sick, unfortunately.
