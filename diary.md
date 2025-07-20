@@ -1,3 +1,7 @@
+# Day 16 (2025-07-20)
+
+Still sick; but getting better.
+
 # Day 15 (2025-07-19)
 
 Still sick; still no Rust.
