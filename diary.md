@@ -1,3 +1,9 @@
+# Day 17 (2025-07-21)
+
+Finally some Rust again after feeling better, and after a day full of Ruby programming. I solved puzzle 7 from the brain teasers book.
+
+Travelling day tomorrow, so I expect nothing more than a puzzle. But the day after tomorrow, I'll probably be sitting around in my hotel room with some more time for Rust.
+
 # Day 16 (2025-07-20)
 
 Still sick; but getting better.
