@@ -1,3 +1,25 @@
+# Day 18 (2025-07-22)
+
+Before heading off to the airport, I started working on chapter 7 of the Brown Book, which is about managing Rust projects. A few notes:
+
+- _Crate_: the smallest amount of code the Rust compiler considers at a time. Crates…
+    - can be as small as a single file.
+    - can contain modules.
+    - have a _root_, i.e. a source file from which compilation is started.
+    - can either be a binary (root: `src/main.rs`) or a library (root: `src/lib.rs`).
+- _Package_: a bundle of one or more crates. Packages…
+    - contain a `Cargo.toml` file containing the package's build instructions.
+    - must contain at least one crate.
+    - can contain multiple binary crates but only up to one library crate.
+- _Module_: a means to organize the code within a crate and define access rules to its elements. Modules…
+    - are declared using the `mod` keyword and a name, i.e. `mod foobar`.
+    - are looked up under `src/[name].rs` and then under `src/[name]/mod.rs`.
+    - can contain submodules, which can be declared within the same file, or in `src/[module]/[submodule].rs` and `src/[module]/[submodule]/mod.rs`.
+    - can be referred to as `crate::[module]::[submodule]::[item]`.
+    - have access rules:
+        - By default, declared using `mod`, a module is private, and its elements cannot be seen by its parent.
+        - By declaring the module using `pub mod`, or individual elements within the module using `pub`, the module or its element, respectively, are visible to its parent.
+
 # Day 17 (2025-07-21)
 
 Finally some Rust again after feeling better, and after a day full of Ruby programming. I solved puzzle 7 from the brain teasers book.
