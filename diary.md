@@ -13,12 +13,23 @@ Before heading off to the airport, I started working on chapter 7 of the Brown B
     - can contain multiple binary crates but only up to one library crate.
 - _Module_: a means to organize the code within a crate and define access rules to its elements. Modules…
     - are declared using the `mod` keyword and a name, i.e. `mod foobar`.
-    - are looked up under `src/[name].rs` and then under `src/[name]/mod.rs`.
+    - are looked up under `src/[name].rs` (new style) and then under `src/[name]/mod.rs` (old style).
     - can contain submodules, which can be declared within the same file, or in `src/[module]/[submodule].rs` and `src/[module]/[submodule]/mod.rs`.
     - can be referred to as `crate::[module]::[submodule]::[item]`.
     - have access rules:
         - By default, declared using `mod`, a module is private, and its elements cannot be seen by its parent.
         - By declaring the module using `pub mod`, or individual elements within the module using `pub`, the module or its element, respectively, are visible to its parent.
+        - Modules being declared as public do not automatically expose their elements as public.
+    - Absolute paths begin with `crate`, relative paths with `self`, `super`, or an identifier within the current module.
+    - A enum declared as public exposes all of its variants as public without further declarations.
+    - The fields of a struct must be declared as public explicitly for access from the outside, even if the struct itself is already declared public.
+    - Names can be brought into scope by the `use` keyword, which requires a path to the symbol to be brought into scope. The `as` keyword allows for alias names.
+        - e.g. `use std::io::Result as IoResult;`
+    - Names can be re-exported using the `pub` and `use` keywords in conjunction.
+        - e.g. `pub use crates::utils::strip;`
+        - e.g. `pub use crates::utils::strip as trim;`
+
+That's it for chapter 7.
 
 # Day 17 (2025-07-21)
 
