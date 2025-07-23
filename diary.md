@@ -1,3 +1,7 @@
+# Day 19 (2025-07-23)
+
+On vacation now, no time for Rust today.
+
 # Day 18 (2025-07-22)
 
 Before heading off to the airport, I started working on chapter 7 of the Brown Book, which is about managing Rust projects. A few notes:
