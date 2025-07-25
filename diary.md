@@ -1,6 +1,6 @@
 # Day 21 (2025-07-25)
 
-Finally found some time to start chapter 8 on collections.
+Finally found some time to start chapter 8 on collections. I worked through the section about vectors in the morning, and the section about strings in the evening.
 
 # Day 20 (2025-07-24)
 
