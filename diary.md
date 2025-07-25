@@ -1,3 +1,7 @@
+# Day 20 (2025-07-24)
+
+Same excuse, different day.
+
 # Day 19 (2025-07-23)
 
 On vacation now, no time for Rust today.
