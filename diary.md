@@ -1,3 +1,7 @@
+# Day 21 (2025-07-25)
+
+Finally found some time to start chapter 8 on collections.
+
 # Day 20 (2025-07-24)
 
 Same excuse, different day.
