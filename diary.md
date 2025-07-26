@@ -1,3 +1,7 @@
+# Day 22 (2025-07-26)
+
+I've been working through the section on Hash Maps today.
+
 # Day 21 (2025-07-25)
 
 Finally found some time to start chapter 8 on collections. I worked through the section about vectors in the morning, and the section about strings in the evening.
