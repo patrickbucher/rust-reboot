@@ -2,6 +2,10 @@
 
 I've been working through the section on Hash Maps today.
 
+The reason I stopped working on Elixir was that I was unable to focus on the introductory book. You cannot step into the same stream twice: working through a tutorial you're already familiar with is hard because you subconciously know that you're faking it.
+
+Now I realized that I have the same issue with Rust and the Brown Book. It's just not motivating, and I'd rather read some of my old code than work on this tutorial. So I have to pick a new challenge for August; this one isn't working out.
+
 # Day 21 (2025-07-25)
 
 Finally found some time to start chapter 8 on collections. I worked through the section about vectors in the morning, and the section about strings in the evening.
